@@ -22,5 +22,5 @@ j=i++;
 \*j = j - (i + Var + Rem) is the same as 
 
 j -= (i + Var + Rem)
-*\
+*/ 
 ```
