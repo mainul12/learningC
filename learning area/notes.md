@@ -17,3 +17,4 @@ j=i++;
 
 //j = j - (i + Var + Rem) is the same as j -= (i + Var + Rem)
 ```
+- in the “C” language all strings are treated as arrays.
