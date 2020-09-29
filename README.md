@@ -18,3 +18,9 @@ j=i++;
 
 // j will receive the value of 1 and i the value of 2.
 ```
+```C
+\*j = j - (i + Var + Rem) is the same as 
+
+j -= (i + Var + Rem)
+*\
+```
