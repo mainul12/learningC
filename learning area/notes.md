@@ -21,3 +21,6 @@ j=i++;
 
 %d -> int
 - ```==``` is a binary operator with left-side binding.
+```C
+scanf("%d", &value);
+```
