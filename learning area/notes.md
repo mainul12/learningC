@@ -20,3 +20,4 @@ j=i++;
 - in the “C” language all strings are treated as arrays.
 
 %d -> int
+- == is a binary operator with left-side binding.
