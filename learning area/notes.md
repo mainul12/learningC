@@ -27,3 +27,12 @@ scanf("%d", &value);
 - *long* – is used to declare that we need a wider range of ints than the standard one;
 - *short* – is used to determine that we need a narrower range of ints than the standard one;
 - *unsigned* – is used to specify that a variable is needed only for non-negative numbers; 
+
+In the following snippet, the variable x of type float is explicitly converted into the double type.
+
+```C
+float x;
+double y;
+
+y = (double) x;
+```
