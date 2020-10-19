@@ -33,6 +33,5 @@ In the following snippet, the variable x of type float is explicitly converted i
 ```C
 float x;
 double y;
-
 y = (double) x;
 ```
