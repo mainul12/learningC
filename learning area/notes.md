@@ -36,16 +36,11 @@ double y;
 y = (double) x;
 ```
 
-&  (ampersand)    bitwise conjunction
-|   (bar)                  bitwise disjunction
-~   (tilde)                bitwise negation
-^   (caret)               bitwise exclusive or
-Let's make it easier:
+- &  (ampersand)    bitwise conjunction
+- |   (bar)                  bitwise disjunction
+- ~   (tilde)                bitwise negation
+- ^   (caret)               bitwise exclusive or
 
-& requires exactly two “1s” to provide “1” as the result
-| requires at least one “1” to provide “1” as the result
-^ requires only one “1” to provide “1” as the result
-~ (is one argument and) requires “0” to provide “1” as the result
 But take note: arguments of these operators **must be integers** (int as well as long, short or char); we must not use floats here.
 
 The difference in the operation of the logical and bit operators is important: the logical operators do not penetrate into the bit level of its argument. They’re only interested in the final integer value.
