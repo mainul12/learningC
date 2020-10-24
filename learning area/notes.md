@@ -45,3 +45,4 @@ But take note: arguments of these operators **must be integers** (int as well as
 
 The difference in the operation of the logical and bit operators is important: the logical operators do not penetrate into the bit level of its argument. They’re only interested in the final integer value.
 
+- All the elements of an array have the same type.
