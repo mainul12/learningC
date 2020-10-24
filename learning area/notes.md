@@ -51,3 +51,4 @@ The difference in the operation of the logical and bit operators is important: t
 int numbers[5]
 numbers[0] = 111
 ```
+- any expression could be the index of an array
