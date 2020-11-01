@@ -52,3 +52,6 @@ int numbers[5]
 numbers[0] = 111
 ```
 - any expression could be the index of an array
+
+A pointer is a variable that contains the memory address of another
+variable, called the pointee.
