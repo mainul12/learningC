@@ -7,11 +7,6 @@ void build_array( int array_variable[], int length_of_array )
                 array_variable[i] = i; 
               } 
         } 
- 
- 
-        // 
-        // Test code for passing an array by reference 
-        // 
 int main() 
         { 
           int values[50]; 
@@ -24,4 +19,3 @@ int main()
  
           return 0; 
         } 
-        
