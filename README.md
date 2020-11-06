@@ -1,2 +1,2 @@
-Learning C on my own is tricky.
+Learning programming languages on my own.
 
