@@ -55,3 +55,7 @@ numbers[0] = 111
 
 A pointer is a variable that contains the memory address of another
 variable, called the pointee.
+
+## Functions
+- If the variable is declared outside of all the blocks, it becomes a **global** variable.
+
