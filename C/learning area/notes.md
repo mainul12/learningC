@@ -59,3 +59,4 @@ variable, called the pointee.
 ## Functions
 - If the variable is declared outside of all the blocks, it becomes a **global** variable.
 - every type in C is either an *object* type or a *function* type (Effective C)
+- C has four types of scope: file, block, function prototype, and function.
