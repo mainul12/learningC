@@ -62,5 +62,5 @@ variable, called the pointee.
 - C has four types of scope: file, block, function prototype, and function.
 - Objects have a storage duration that determines their lifetime. Altogether, four storage durations are available: automatic, static, thread, and allocated.
     - a sublist?
-        - objects of automatic storage duration are declared within a block or as a function parameter.
+        - objects of automatic storage duration are declared within a block or as a function parameter. The lifetime of these objects begins when the block in which they’re declared begins execution, and ends when execution of the block ends. If the block is entered recursively, a new object is created each time, each with its own storage.
              - a sub sub sub list?
