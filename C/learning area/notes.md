@@ -60,3 +60,5 @@ variable, called the pointee.
 - If the variable is declared outside of all the blocks, it becomes a **global** variable.
 - every type in C is either an *object* type or a *function* type (Effective C)
 - C has four types of scope: file, block, function prototype, and function.
+- Objects have a storage duration that determines their lifetime. Altogether, four storage durations are available: automatic, static, thread, and allocated.
+    - a sublist?
