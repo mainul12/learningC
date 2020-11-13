@@ -63,4 +63,4 @@ variable, called the pointee.
 - Objects have a storage duration that determines their lifetime. Altogether, four storage durations are available: automatic, static, thread, and allocated.
     - a sublist?
         - a sub sub list?
-                - a sub sub sub list?
+                       - a sub sub sub list?
