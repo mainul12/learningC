@@ -58,4 +58,4 @@ variable, called the pointee.
 
 ## Functions
 - If the variable is declared outside of all the blocks, it becomes a **global** variable.
-
+- every type in C is either an *object* type or a *function* type
