@@ -6,7 +6,7 @@ Functions
 ```Haskell
 hello name = "Hello, "++name
 
- f = \x y -> x*y+x+y -- anonymous functions
- 
-  map (\x -> x*2+1) [1..10]
+f = \x y -> x*y+x+y -- anonymous functions
+
+map (\x -> x*2+1) [1..10]
 ```
