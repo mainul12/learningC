@@ -52,4 +52,6 @@ Boolean
 True /= False --> returns True
 
 elem 1 [1,2,3] --> True
+
+3 `elem` [1,2,3,4,5] --> True
 ```
