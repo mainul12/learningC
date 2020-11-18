@@ -64,4 +64,6 @@ True && True --> True
 False && True --> False
 
 True || False -->True
+
+[(x,y) | x<-[False, True], y<-[False, True]] --> [(False,False),(False,True),(True,False),(True,True)]
 ```
