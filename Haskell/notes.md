@@ -78,4 +78,6 @@ putStrLn ("good " ++ "morning" ++ " everyone") --> good morning everyone
 do {putStrLn "what is your name?"; x <- getLine; putStrLn ("hello " ++ x)}
 
 read "42" :: Int --> 42
+
+show 42 --> "42"
 ```
