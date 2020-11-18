@@ -85,3 +85,4 @@ putStrLn (show (6*7)) --> 42
 
 print 42
 ```
+continue from 2.8
