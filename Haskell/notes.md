@@ -30,3 +30,7 @@ max x y
         else y
 max x y = if x>y then x else y
 ```
+List comprehensions
+```Haskell
+[2*x |x <- [1..10]] --returns [2,4,6,8,10,12,14,16,18,20]
+```
