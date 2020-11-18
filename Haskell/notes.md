@@ -36,6 +36,8 @@ List comprehensions
 ```Haskell
 [2*x | x <- [1..10]] --returns [2,4,6,8,10,12,14,16,18,20]
 
+['a','d' .. 'z'] --> "adgjmpsvy"
+
 [[a,b] | a <- [10,11,12] , b <- [20,21]] --returns [[10,20],[10,21],[11,20],[11,21],[12,20],[12,21]]
 ```
 Indexing lists
