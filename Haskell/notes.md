@@ -54,4 +54,13 @@ True /= False --> returns True
 elem 1 [1,2,3] --> True
 
 3 `elem` [1,2,3,4,5] --> True
+
+not True --> False
+
+not (not False) --> False
+
+True && True --> True
+
+False && True --> False
+
 ```
