@@ -80,4 +80,8 @@ do {putStrLn "what is your name?"; x <- getLine; putStrLn ("hello " ++ x)}
 read "42" :: Int --> 42
 
 show 42 --> "42"
+
+putStrLn (show (6*7)) --> 42
+
+print 42
 ```
