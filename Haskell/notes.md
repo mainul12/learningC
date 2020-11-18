@@ -69,3 +69,7 @@ True || False -->True
 
 if True then 42 else pi --> returns 42.0
 ```
+I/O
+```Haskell
+putStrLn "Hello world" --> Hello world
+```
