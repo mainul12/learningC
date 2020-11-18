@@ -63,4 +63,5 @@ True && True --> True
 
 False && True --> False
 
+True || False -->True
 ```
