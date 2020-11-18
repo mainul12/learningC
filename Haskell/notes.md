@@ -6,6 +6,8 @@ Functions
 ```Haskell
 hello name = "Hello, "++name
 
+min 3 8 --returns 3
+
 f = \x y -> x*y+x+y -- anonymous functions
 
 map (\x -> x*2+1) [1..10]
