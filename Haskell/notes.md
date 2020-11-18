@@ -12,3 +12,13 @@ f = \x y -> x*y+x+y -- anonymous functions
 
 map (\x -> x*2+1) [1..10]
 ```
+```Haskell
+roots a b c = 
+        let
+            det2 = b*b-4*a*c;
+            det  = sqrt(det2);
+            rootp = (-b + det)/a/2;
+            rootm = (-b - det)/a/2;
+        in
+            [rootm,rootp]
+```
