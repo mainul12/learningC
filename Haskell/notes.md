@@ -47,3 +47,7 @@ Indexing lists
 ```Haskell
 23 : [48, 41, 44] --> [23,48,41,44]
 ```
+Boolean
+```Haskell
+True /= False --> returns True
+```
