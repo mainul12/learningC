@@ -22,3 +22,10 @@ roots a b c =
         in
             [rootm,rootp]
 ```
+Conditions in Haskell
+```Haskell
+max x y
+    if x > y
+        then x
+        else y
+```
