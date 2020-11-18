@@ -50,4 +50,6 @@ Indexing lists
 Boolean
 ```Haskell
 True /= False --> returns True
+
+elem 1 [1,2,3] --> True
 ```
