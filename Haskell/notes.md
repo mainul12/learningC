@@ -10,6 +10,8 @@ min 3 8 --returns 3
 
 f = \x y -> x*y+x+y -- anonymous functions
 
+(\x -> x+1) 4 --> returns 5
+
 map (\x -> x*2+1) [1..10]
 ```
 ```Haskell
